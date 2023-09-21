@@ -23,9 +23,9 @@ $$
 \dot y_i = V_{Mi} \sin(\theta_{Mi}) \\
 \dot \theta_{Mi} = \frac{a_{Mi}}{V_{Mi}} \\
 \end{cases}
+$$
 
-\ \ \ \ \ \ \ \ \ \ 
-
+$$
 \begin{cases}
 \dot x_i = V_{T} \cos(\theta_{T}) \\
 \dot y_i = V_{T} \sin(\theta_{T}) \\
@@ -41,8 +41,7 @@ $$
 
 其中N为比例导引系数，一般为2-6之间的一个值，选值应该在$1<N<\infty$，比例导引法的弹道特性介于追踪法和平行接近法之间，比例系数越大，弹道越平直，需用法向过载越小。
 
-## python代码
-
+## 仿真程序
 我们这里考虑用python实现，并不是matlab，其一python的结构更加清晰一点，其二后期可能考虑用一些数据驱动的方法用在制导上，用python会更方便。程序的github地址为
 
 程序效果图，其中蓝线为拦截弹，黄线为目标
